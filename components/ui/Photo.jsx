@@ -22,7 +22,7 @@ const Photo = () => {
         priority
         quality={100}
         fill
-        alt="Shua Zafen" layout="fill" objectFit="cover" className="w-full h-full object-cover "/>
+        alt="Shua Zafen" className="w-full h-full object-cover "/>
         </motion.div>
 
         <motion.svg className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"

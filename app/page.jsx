@@ -1,6 +1,7 @@
 
 import Photo from "@/components/ui/Photo"
 import Socials from "@/components/ui/Socials"
+import Stats from "@/components/ui/Stats"
 import { Button } from "@/components/ui/button"
 import { FiDownload } from 'react-icons/fi'
 
@@ -36,6 +37,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Stats/>
    </section>
   )
 }
