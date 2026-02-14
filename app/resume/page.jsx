@@ -68,7 +68,7 @@ const experience = {
       position: "Full Stack Developer",
       duration: "2024 - 2025",
     },
-    
+
   ],
 }
 
@@ -107,7 +107,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  description: "I've developed a deep understanding of modern web technologies, enabling me to build responsive, performant, and visualy stunning digital experiences.",
+  description: "I've developed a deep understanding of modern web technologies, enabling me to build responsive, performant, and visually stunning digital experiences.",
   skillList: [
     {
       icon: <FaHtml5 />,
