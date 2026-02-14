@@ -5,20 +5,20 @@ import Link from "next/link";
 const services = [
   {
     num: '01',
-    title: 'web Development',
-    description: 'Full-stack development bridges front-end and back-end. Front-end involves HTML, CSS, and JavaScript for user interfaces. Back-end handles server-side logic, databases, and APIs. Full-stack developers work on both sides to build complete web applications.',
+    title: 'Front-end Development',
+    description: 'I build responsive and user-friendly interfaces using React, Next.js and modern ui components. My focus is on creating seamless user experiences with clean, efficient code.',
     href: ''
   },
   {
     num: '02',
-    title: 'UI/UX',
-    description: 'UI/UX design focuses on creating user-friendly and visually appealing digital products. UI (User Interface) design involves the visual elements like buttons, menus, and typography. UX (User Experience) design focuses on the overall user journey, ensuring its intuitive and enjoyable. ',
+    title: 'Back-end Development',
+    description: 'I build robust and scalable back-end systems using Django, Django Rest Framework, and modern database technologies. My focus is on creating secure, efficient, and maintainable server-side applications that support seamless front-end integration. ',
     href: ''
   },
   {
     num: '03',
-    title: 'Graphics design',
-    description: 'Graphic design is the art and craft of visual communication that combines text and images to inform, persuade, or inspire. It involves creating visual concepts to communicate ideas that inspire, inform, or captivate consumers.',
+    title: 'Deployment & Dockerization',
+    description: 'I provide end-to-end deployment services for web applications, ensuring seamless transition from development to production. My expertise includes setting up CI/CD pipelines, configuring production environments, and implementing Dockerization to ensure consistent application performance across different environments.',
     href: ''
   },
   {
