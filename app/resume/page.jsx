@@ -1,8 +1,8 @@
 "use client"
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from 'react-icons/fa'
+import { FaReact, FaNodeJs } from 'react-icons/fa'
 import { BiLogoDjango } from 'react-icons/bi'
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si'
+import { SiTailwindcss, SiNextdotjs, SiTypescript } from 'react-icons/si'
 
 const about = {
   title: 'About me',
@@ -110,16 +110,8 @@ const skills = {
   description: "I've developed a deep understanding of modern web technologies, enabling me to build responsive, performant, and visually stunning digital experiences.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "css 3",
-    },
-    {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiTypescript />,
+      name: "typescript",
     },
     {
       icon: <FaReact />,
@@ -132,10 +124,6 @@ const skills = {
     {
       icon: <SiNextdotjs />,
       name: "next.js"
-    },
-    {
-      icon: <FaFigma />,
-      name: "figma",
     },
     {
       icon: <FaNodeJs />,
