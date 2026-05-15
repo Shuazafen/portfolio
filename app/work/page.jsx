@@ -7,9 +7,9 @@ import 'swiper/css'
 
 import { DiSqllite } from "react-icons/di";
 import { BsArrowUpRight, BsGithub } from 'react-icons/bs'
-import { FaReact, FaNodeJs, FaHtml5, FaDocker } from 'react-icons/fa'
+import { FaReact, FaNodeJs, FaHtml5, FaDocker, FaAws } from 'react-icons/fa'
 import { BiLogoDjango } from 'react-icons/bi'
-import { SiTailwindcss, SiNextdotjs, SiTypescript, SiMongodb, SiCelery } from 'react-icons/si'
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiMongodb, SiCelery, SiSupabase } from 'react-icons/si'
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 
@@ -43,34 +43,38 @@ const projects = [
     }]
   },
   {
-    title: "E-commerce app",
+    title: "Titans Careers Academy",
     category: "Fullstack",
-    description: "Built using Django, Sqlite, html and Tailwind css. This is a Monolithic full stack application built with django template.",
-    image: "",
-    link: "https://django-emart.onrender.com",
-    github: "https://github.com/Shuazafen/django-emart",
+    description: "This is a website for students who are registered to Titans careers. A place where actual learning happens, from course videos, quiz modules and job like interface and experience",
+    image: "/assets/titans-academy.png",
+    link: "https://www.titanscareershub.com/",
+    github: "https://github.com/Shuazafen/titan-hub",
     stack: [{
-      name: "Django",
-      icon: <BiLogoDjango />
+      name: "Typescript",
+      icon: <SiTypescript />
     },
     {
-      name: "Sqlite",
-      icon: <DiSqllite />
+      name: "Supabase",
+      icon: <SiSupabase />
     },
     {
-      name: "html",
-      icon: <FaHtml5 />
+      name: "Aws s3",
+      icon: <FaAws />
     },
     {
       name: "Tailwind css",
       icon: <SiTailwindcss />
-    }]
+    },
+  {
+     name: "Docker",
+      icon: <FaDocker />
+  }]
   },
   {
     title: "LMS app",
     category: "Backend",
     description: "A backend for a learning management system built using Django Rest Framework, Mongodb, celery and Docker.",
-    image: "",
+    image: "/assets/titans-api.png",
     link: "https://lms-backend-bn1v.onrender.com",
     github: "https://github.com/Shuazafen/lms-backend",
     stack: [{
