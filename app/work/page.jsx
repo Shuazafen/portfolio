@@ -19,23 +19,23 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Food delivery app",
+    title: "CWPAI",
     category: "Fullstack",
-    description: "Built using React, Node.js, MongoDB and Tailwind CSS. This app works like an online restaurant ordering app where users can see your menu and order food online.",
-    image: "/assets/foo-delivery.png",
-    link: "https://mern-stack-chi-cyan.vercel.app",
-    github: "https://github.com/Shuazafen/mern-stack",
+    description: "Built using React, Typescript, Supabase and Tailwind CSS. This app is a platform for women empowerment with hosted events and outreaches.",
+    image: "/assets/cwpai.png",
+    link: "https://cwpai.africa",
+    github: "https://github.com/Shuazafen/",
     stack: [{
       name: "React",
       icon: <FaReact />
     },
     {
-      name: "Node.js",
-      icon: <FaNodeJs />
+      name: "typescript",
+      icon: <SiTypescript />
     },
     {
-      name: "MongoDB",
-      icon: <SiMongodb />
+      name: "supabase",
+      icon: <SiSupabase />
     },
     {
       name: "Tailwind css",
@@ -94,27 +94,27 @@ const projects = [
       icon: <FaDocker />
     }]
   },
-  {
-    title: "React E-commerce app",
-    category: "Fullstack",
-    description: "Built using React for frontend and Django-Rest for backend. This is a Fullstack application using microservices architecture and sqlite database.",
-    image: "",
-    link: "https://presentationproject.vercel.app",
-    github: "https://github.com/Shuazafen/presentationproject",
-    stack: [{
-      name: "Django",
-      icon: <BiLogoDjango />
-    },
-    {
-      name: "MongoDB",
-      icon: <SiMongodb />
-    },
-    {
-      name: "Sqlite",
-      icon: <DiSqllite />
-    }
-    ]
-  },
+  // {
+  //   title: "React E-commerce app",
+  //   category: "Fullstack",
+  //   description: "Built using React for frontend and Django-Rest for backend. This is a Fullstack application using microservices architecture and sqlite database.",
+  //   image: "",
+  //   link: "https://presentationproject.vercel.app",
+  //   github: "https://github.com/Shuazafen/presentationproject",
+  //   stack: [{
+  //     name: "Django",
+  //     icon: <BiLogoDjango />
+  //   },
+  //   {
+  //     name: "MongoDB",
+  //     icon: <SiMongodb />
+  //   },
+  //   {
+  //     name: "Sqlite",
+  //     icon: <DiSqllite />
+  //   }
+  //   ]
+  // },
 
 ]
 
